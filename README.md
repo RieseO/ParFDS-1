@@ -1,9 +1,11 @@
 The code is a number of files plus an example FDS input file. 
 
  - parFDS.py - the code which orchestrates the calls to FDS and wrapping
- - now includes plotter routines which plot the results for all parameters in comparison
- - now code has been optimized to work with newer fds start routines "cmdfds" and "fds_local"
  - example_input_file.fds - an example modified FDS input template
+ 
+Update history: Oriese@ 2022-12-27
+ - includes plotter routines which plot the results for all parameters in comparison
+ - code has been optimized to work with newer fds start routines "cmdfds" and "fds_local"
 
 Most of the important stuff takes place after the if __name__ == '__main__' in ParFDS.py 
 
@@ -40,8 +42,4 @@ One more thing: in the example_input_file.fds example file, certain of the varia
 
 Functional Note: the tests of this code have only been run under OS X and Ubuntu, so I am not sure at all if this code will balk on Windows. If you are going to use this on Windows, please ensure (at a minimum) that the command 'nosetests ./tests/*.py' run at the command prompt passes first. 
 
-Main update history: 
-Oriese@ 2022-12-27
-Code has been optimized to new fds start routines "cmdfds" and "fds_local".
-Plotter routines have been added for collecting and visualize the results.
 Code works with Windows 10, tested not with OS X and Ubuntu.
