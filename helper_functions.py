@@ -1,4 +1,4 @@
-"""necessary functions."""
+"""necessary functions for parFDS."""
 import os
 import itertools
 import re
