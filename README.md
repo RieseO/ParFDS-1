@@ -42,5 +42,6 @@ Functional Note: the tests of this code have only been run under OS X and Ubuntu
 
 Main update history: 
 Oriese@ 2022-12-27
-Code has been optimized to new fds start routines "cmdfds" and "fds_local"
-Code works with Windows 10, tested not with OS X and Ubuntu ;-)
+Code has been optimized to new fds start routines "cmdfds" and "fds_local".
+Plotter routines have been added for collecting and visualize the results.
+Code works with Windows 10, tested not with OS X and Ubuntu.
